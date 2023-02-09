@@ -9,10 +9,12 @@ class RootScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.red,
+      appBar: AppBar(),
       body: Row(
         children: const [
           Expanded(
             child: StudentList(),
+           
           ),
           Expanded(child: IndividualScreen())
         ],

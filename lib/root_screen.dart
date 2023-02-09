@@ -13,6 +13,7 @@ class RootScreen extends StatelessWidget {
       body: Row(
         children: const [
           Expanded(
+            flex: 3,
             child: StudentList(),
            
           ),
